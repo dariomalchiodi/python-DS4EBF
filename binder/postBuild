@@ -1,5 +1,4 @@
 jupyter labextension install @jupyterlab/google-drive
-jupyter serverextension enable --py jupyterlab --sys-prefix
 
 conda create --quiet --yes -p $CONDA_DIR/envs/python2 python=2.7 \
     'ipython' \
