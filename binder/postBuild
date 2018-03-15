@@ -1,21 +1,2 @@
 jupyter labextension install @jupyterlab/google-drive
 
-conda create --quiet --yes -p $CONDA_DIR/envs/python2 python=2.7 \
-    'ipython' \
-    'notebook' \
-    'ipywidgets' \
-    'pandas' \
-    'cython' \
-    'matplotlib' \
-    'scipy' \
-    'seaborn' \
-    'bokeh' \
-    'pyzmq' \
-    'mysql-connector-python' \
-    'ipyvolume' \
-    'scikit-learn' \
-    'python-graphviz' \
-    && conda clean -tipsy
-
-$CONDA_DIR/envs/python2/bin/python -m ipykernel install
-
